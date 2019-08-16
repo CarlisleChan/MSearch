@@ -1,0 +1,18 @@
+
+• 数据来源
+
+https://github.com/dengyuhan/magnetW
+
+示例站点较不稳定，建议自行搭建
+
+• 更换地址
+
+替换成你自己的服务器地址
+
+• 源管理
+
+管理显示在首页的搜索源
+
+
+Have a nice day~
+

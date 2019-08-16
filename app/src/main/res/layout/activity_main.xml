@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/PopupMenuStyle"
+        app:title="">
+
+        <com.carlisle.magnet.support.widget.ClearableEditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="请输入关键词"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLength="100"
+            android:padding="7dp"
+            android:textColor="#E6FFFFFF"
+            android:textColorHint="#66FFFFFF" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:textAllCaps="false"
+            app:tabGravity="center"
+            app:tabIndicatorColor="#E6FFFFFF"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#E6FFFFFF"
+            app:tabTextColor="#66FFFFFF" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tab_layout" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/elevation_spacing"
+            android:layout_below="@+id/tab_layout"
+            android:background="@drawable/shadow_bottom" />
+
+    </RelativeLayout>
+
+</LinearLayout>

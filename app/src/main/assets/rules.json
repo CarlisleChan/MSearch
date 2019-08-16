@@ -1,0 +1,226 @@
+[
+  {
+    "site": "种子搜",
+    "proxy": false,
+    "group": "//table[@class='table table-bordered table-striped']",
+    "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
+    "name": "./tbody/tr[1]/td/div/h4/a",
+    "size": "./tbody/tr/td[2]/strong",
+    "date": "./tbody/tr/td[1]/strong",
+    "hot": "./tbody/tr[2]/td[3]/strong",
+    "url": "https://www.zhongzilou.com",
+    "paths": {
+      "time": "/list/%s/%d",
+      "size": "/list_length/%s/%d",
+      "hot": "/list_click/%s/%d"
+    }
+  },
+  {
+    "site": "BT蚂蚁",
+    "proxy": false,
+    "group": "//div[@id='wall']/div[@class='search-item']",
+    "magnet": "./div[@class='item-title']/a/@href",
+    "name": "./div[@class='item-title']/a",
+    "size": "./div[@class='item-bar']/span[4]/b",
+    "date": "./div[@class='item-bar']/span[1]/b",
+    "hot": "./div[@class='item-bar']/span[2]/b",
+    "url": "http://www.btakt.com",
+    "paths": {
+      "time": "/search/%s-first-asc-%d",
+      "size": "/search/%s-size-desc-%d",
+      "hot": "/search/%s-hot-desc-%d"
+    }
+  },
+  {
+    "site": "磁力王",
+    "proxy": false,
+    "group": "//div[@class=\"single_cont\"]",
+    "magnet": "./ul[1]/li/h3/a/@data-src",
+    "name": "./ul[1]/li/h3/a",
+    "size": "./ul[2]/li[2]/span",
+    "date": "./ul[2]/li[1]/text()",
+    "hot": "./ul[1]/li/h3/span/span[3]",
+    "url": "https://www.ciliwang.club",
+    "paths": {
+      "time": "/list.html?keyword=%s&page=%d"
+    }
+  },
+  {
+    "site": "BT4G",
+    "proxy": true,
+    "group": "//div[@class='search-item detail-width']",
+    "magnet": "./div[1]/h3/a/@href",
+    "name": "./div[1]/h3/a",
+    "size": "./div[3]/span[4]/b",
+    "date": "./div[3]/span[2]/b",
+    "hot": "./div[3]/span[5]/b",
+    "url": "https://cn.bt4g.com",
+    "paths": {
+      "time": "/search/%s/%d",
+      "size": "/search/%s/bysize/%d",
+      "hot": "/search/%s/byrequests/%d"
+    }
+  },
+  {
+    "site": "Nyaa（动漫）",
+    "proxy": false,
+    "group": "//div[@class='table-responsive']/table/tbody/tr",
+    "magnet": "./td[3]/a[2]/@href",
+    "name": "./td[2]/a",
+    "size": "./td[4]",
+    "date": "./td[5]",
+    "hot": "./td[8]",
+    "url": "https://nyaa.si",
+    "paths": {
+      "time": "?q=%s&p=%d",
+      "size": "?q=%s&s=size&o=desc",
+      "hot": "?q=%s&s=downloads&o=desc"
+    }
+  },
+  {
+    "site": "动漫花园",
+    "proxy": false,
+    "group": "//*[@id=\"topic_list\"]/tbody/tr",
+    "magnet": "./td[4]/a/@href",
+    "name": "./td[3]/a",
+    "size": "./td[5]",
+    "date": "./td[1]/text()",
+    "hot": "./td[8]",
+    "url": "https://dmhy.anoneko.com",
+    "paths": {
+      "time": "/topics/list/page/%d?keyword=%s"
+    }
+  },
+  {
+    "site": "Sukebei Nyaa",
+    "proxy": true,
+    "group": "//div[@class='table-responsive']/table/tbody/tr",
+    "magnet": "./td[3]/a[2]/@href",
+    "name": "./td[2]/a",
+    "size": "./td[4]",
+    "date": "./td[5]",
+    "hot": "./td[8]",
+    "url": "https://sukebei.nyaa.si",
+    "paths": {
+      "time": "?q=%s&p=%d",
+      "size": "?q=%s&s=size&o=desc",
+      "hot": "?q=%s&s=downloads&o=desc"
+    }
+  },
+  {
+    "site": "BTSOW",
+    "proxy": true,
+    "group": "//div[@class='row']",
+    "magnet": "./a/@href",
+    "name": "./a/div[1]",
+    "size": "./div[1]",
+    "date": "./div[2]",
+    "url": "https://btsow.pw",
+    "paths": {
+      "preset": "/search/%s/page/%d"
+    }
+  },
+  {
+    "site": "Torrentz2",
+    "proxy": false,
+    "group": "//div[@class=\"results\"]/dl",
+    "magnet": "./dt/a/@href",
+    "name": "./dt/a",
+    "size": "./dd/span[3]",
+    "date": "./dd/span[2]",
+    "hot": "./dd/span[5]",
+    "url": "https://www.torrentz2.eu",
+    "paths": {
+      "preset": "/search?f=%s&p=%d",
+      "time": "/searchA?f=%s&p=%d",
+      "size": "/searchS?f=%s&p=%d"
+    }
+  },
+  {
+    "site": "idope",
+    "proxy": true,
+    "group": "//div[@class=\"resultdiv\"]",
+    "magnet": "./div[1]/a/@href",
+    "name": "./div[1]/a/div",
+    "size": "./div[2]/div[3]/div[2]",
+    "date": "./div[2]/div[2]/div[2]",
+    "url": "https://idope.se",
+    "paths": {
+      "preset": "/torrent-list/%s/?p=%d",
+      "size": "/torrent-list/%s/?p=%d&o=-2"
+    }
+  },
+  {
+    "site": "BTbook",
+    "proxy": false,
+    "group": "//div[@class='cili-item']",
+    "magnet": "./div[1]/h3/a/@href",
+    "name": "./div[1]/h3/a",
+    "size": "./div[3]/span[3]/b",
+    "date": "./div[3]/span[2]/b/b",
+    "hot": "./div[3]/span[4]/b",
+    "url": "https://btbookk.net",
+    "paths": {
+      "time": "/sou/%s/time-%d.html",
+      "size": "/sou/%s/size-%d.html",
+      "hot": "/sou/%s/default-%d.html"
+    }
+  },
+  {
+    "site": "SkrBT",
+    "proxy": false,
+    "group": "//li[@class='search-ret-item']",
+    "magnet": "./h2/a/@href",
+    "name": "./h2/a",
+    "size": "./div/span[1]",
+    "date": "./div/span[3]",
+    "hot": "./div/span[4]",
+    "url": "https://www.skrbt.world",
+    "paths": {
+      "time": "/search?keyword=%s&s=relevance&p=%d",
+      "size": "/search?keyword=%s&s=length&p=%d"
+    }
+  },
+  {
+    "site": "磁力柠檬",
+    "proxy": false,
+    "group": "//div[@class='panel panel-default border-radius']",
+    "magnet": "./div[1]/h3/a/@href",
+    "name": "./div[1]/h3/a",
+    "size": "./div[3]/h4/small/span[1]",
+    "date": "./div[3]/h4/small/span[3]",
+    "url": "https://lemencili1.xyz",
+    "paths": {
+      "time": "/search?keyword=%s&s=relevance&p=%d",
+      "size": "/search?keyword=%s&s=length&p=%d"
+    }
+  },
+  {
+    "site": "卧槽搜搜",
+    "group": "//td[@class='x-item']",
+    "magnet": "./h3/a/@href",
+    "name": "./h3/a",
+    "size": "./span[4]/b",
+    "date": "./span[2]/b",
+    "hot": "./span[3]/b",
+    "url": "http://www.wcs444.com",
+    "paths": {
+      "time": "/s/%s-first-asc-%d",
+      "size": "/s/%s-size-desc-%d",
+      "hot": "/s/%s-hot-desc-%d"
+    }
+  },
+  {
+    "site": "MAG磁力站",
+    "proxy": false,
+    "group": "//ul[@class='link-list']",
+    "magnet": "./li/@data-magnet",
+    "name": "./li/span[1]",
+    "size": "./li/span[2]/span[1]",
+    "date": "./li/span[2]/span[2]",
+    "url": "http://oabt005.com",
+    "paths": {
+      "preset": "/index/index/k/%s/p/%d"
+    }
+  }
+]

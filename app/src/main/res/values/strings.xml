@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MSearch</string>
+
+    <string name="loading">加载中..</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_failed">加载失败, 点击重试</string>
+    <string name="load_completed">加载完成</string>
+
+    <string name="email">duziyixiangsi@gmail.com</string>
+    <string name="github">https://github.com/CarlisleChan/MSearch</string>
+    <string name="coolapk">https://www.coolapk.com/apk/com.carlisle.magnet</string>
+</resources>
