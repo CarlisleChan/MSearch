@@ -4,6 +4,8 @@
 
 数据来源于 <https://github.com/dengyuhan/magnetW>
 
+站点配置规则来源于 <https://github.com/youusername/magnetX>
+
 ## 下载
 
 [酷安](https://www.coolapk.com/apk/com.carlisle.magnet)
